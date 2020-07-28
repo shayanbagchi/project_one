@@ -1,0 +1,48 @@
+.container.fullwidth {
+  width: 100%; }
+.container.no-padding {
+  padding-left: 0;
+  padding-right: 0; }
+
+.single-cause {
+  border: solid 1px #eeeeee;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s; }
+  .single-cause .middle {
+    padding: 30px;
+    background: #f9f9ff;
+    margin-top: 30px;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee; }
+    @media (max-width: 576px) {
+      .single-cause .middle {
+        padding: 15px; } }
+    .single-cause .middle h5 {
+      margin-bottom: 10px; }
+    .single-cause .middle p {
+      font-size: 12px;
+      line-height: 12px;
+      margin-bottom: 0; }
+    .single-cause .middle .skill_main .skill_item {
+      margin-bottom: 17px; }
+      .single-cause .middle .skill_main .skill_item .progress {
+        height: 10px;
+        background: #fff;
+        border-radius: 0; }
+        .single-cause .middle .skill_main .skill_item .progress .progress-bar {
+          width: 0%;
+          -webkit-transition: width 0.6s ease;
+          -moz-transition: width 0.6s ease;
+          -o-transition: width 0.6s ease;
+          transition: width 0.6s ease;
+          height: 10px;
+          vertical-align: middle;
+          align-self: center; }
+          .single-cause .middle .skill_main .skill_item .progress .progress-bar.progress-bar1 {
+            background: #f9a22b; }
+          .single-cause .middle .skill_main .skill_item .progress .progress-bar.progress-bar2 {
+            background: #61c524; }
+          .single-cause .middle .skill_main .skill_item .progress .progress-bar.progress-bar3 {
+            background: #a978e0; }
